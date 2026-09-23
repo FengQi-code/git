@@ -1,0 +1,48 @@
+# --- 系统文件 (macOS/Windows) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 环境变量与密钥 (切勿提交) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- 依赖目录 ---
+node_modules/
+.pnpm-store/
+vendor/
+.venv/
+venv/
+
+# --- 构建产物 ---
+dist/
+build/
+out/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- 缓存与测试报告 ---
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+
+# --- 日志 ---
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- 编辑器 / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
